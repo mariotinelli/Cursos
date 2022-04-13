@@ -1,0 +1,79 @@
+.details_container,
+.service_form_container{
+    width: 990px;
+    margin: 1.2em auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.table {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #FFF;
+    border-spacing: 0;
+}
+
+.table th {
+    width: 35%;
+    padding-bottom: .5em;
+    border-bottom: 2px solid #000;
+    text-align: start;
+}
+
+.table tbody {
+    background-color: #FFF;
+}
+
+.table tbody td {
+    padding: .8em .5em;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.table tbody:hover {
+    background-color: #cfcfcf;
+}
+
+.table_tbody_actions{
+    display: flex;
+    
+}
+
+.edit,
+.remove {   
+    text-decoration: none;
+    color: #fff;
+    border: none; 
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: .9em;
+    padding: 0.4em .6em;
+    cursor: pointer;
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;   
+}
+.edit svg,
+.remove svg{
+    font-size: .9em;
+}
+
+.remove {
+    background-color: #ff041d;
+}
+
+.remove:hover {
+    background-color: #575757;
+}
+
+.edit {
+    background-color: #4d855a;
+}
+
+.edit:hover {
+    background-color: #575757;
+}

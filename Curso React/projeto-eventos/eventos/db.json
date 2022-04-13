@@ -1,0 +1,91 @@
+{
+  "events": [
+    {
+      "name": "Teste Novos Atributos",
+      "city": "Teste Novos Atributos",
+      "date": "2022-03-03",
+      "maxCapacity": "150",
+      "category": {
+        "id": "1",
+        "name": "Tecnologia"
+      },
+      "description": "Lorem ipsum dolor sit amet. Aut corrupti ipsa in molestiae quae eum atque tempore qui dolorem quia ut omnis omnis nam consequatur accusamus eos quos enim. Et numquam maxime ab laudantium omnis ut quia molestias et quis non accusantium cumque non molestiae voluptatem aut repellendus excepturi. Ut rerum fugit id corrupti enim cum consequatur libero ab quos quia aut quibusdam ipsum et quaerat voluptas est quaerat aperiam!\n\nEos laudantium odio id asperiores quis et voluptas nisi ad enim molestias qui itaque aperiam et amet velit! Id aliquid porro vel adipisci repellat quo placeat modi aut consequatur nostrum. Sed sapiente molestiae est vitae nihil non maiores excepturi ut nemo reprehenderit ex sint delectus At quaerat laboriosam et ducimus expedita.\n\nEos dolor dolorem et ullam laboriosam ut aliquid error non repudiandae tempora aut magni minus et dicta tempore. Qui autem repellendus qui accusamus provident qui ratione quasi id omnis earum perferendis nulla. Est Quis quibusdam ut reprehenderit repellat eos alias cupiditate et quis sint et omnis similique ab architecto vero in eius accusamus. Sed veniam illum aut aperiam possimus in officiis unde qui excepturi obcaecati ut iste voluptatem qui enim temporibus ex dolore magni.",
+      "participants": 0,
+      "userParticipants": [
+        {}
+      ],
+      "id": 17
+    },
+    {
+      "name": "Evento de JS",
+      "city": "Londrina",
+      "date": "2022-03-02",
+      "maxCapacity": "800",
+      "category": {
+        "id": "3",
+        "name": "Corporativo"
+      },
+      "description": "Lorem ipsum dolor sit amet. Ab perferendis voluptatem et saepe asperiores et deleniti sint est eligendi officiis et obcaecati consequatur quo consequuntur cupiditate et dolor nesciunt. Non impedit architecto est sint Quis non consequatur facilis. Vel dolorem repudiandae a nihil voluptates 33 perspiciatis consequatur ut harum eveniet quo quibusdam exercitationem At voluptatem cumque?\n\nSed nemo repellendus qui nostrum aspernatur aut corporis fugiat aut iste quia est harum perspiciatis. Est nostrum porro et delectus ullam sit quia ducimus a ipsum dolores in atque quaerat. Est architecto molestias et atque repellendus ut odio omnis. Sit illo asperiores ut quod ipsa est quibusdam reiciendis sit delectus perspiciatis est provident veniam hic distinctio consequatur.\n\nEst voluptas rerum sit accusamus blanditiis ut nulla quae et sapiente aliquam qui velit voluptas et deleniti tempora qui placeat incidunt. Ut dolor voluptas eos maiores sunt ut ipsum maxime hic enim omnis ut Quis sint in earum enim sed rerum magni? Vel sunt beatae et consequuntur neque aut magni autem et necessitatibus delectus. Ad provident rerum et molestiae necessitatibus aut nemo dignissimos sed laudantium facere eum excepturi totam.\n\n ",
+      "participants": 0,
+      "userParticipants": [
+        {}
+      ],
+      "id": 18
+    },
+    {
+      "image": {
+        "id": 1,
+        "name": "banner.png",
+        "path": "C:/Users/Mário/Desktop/Uenp 4° Ano/Cursos/Curso React/projeto-eventos/eventos/src/img/banner1.png"
+      },
+      "name": "Banner",
+      "city": "Banner",
+      "date": "2022-03-08",
+      "maxCapacity": "148",
+      "category": {
+        "id": "2",
+        "name": "Social"
+      },
+      "description": "abc",
+      "participants": 0,
+      "userParticipants": [
+        {}
+      ],
+      "id": 19
+    },
+    {
+      "name": "Evento JS",
+      "city": "Cambara",
+      "date": "2022-03-16",
+      "maxCapacity": "500",
+      "category": {
+        "id": "2",
+        "name": "Social"
+      },
+      "description": "Teste",
+      "participants": 0,
+      "userParticipants": [
+        {}
+      ],
+      "id": 20
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Tecnologia"
+    },
+    {
+      "id": 2,
+      "name": "Social"
+    },
+    {
+      "id": 3,
+      "name": "Corporativo"
+    },
+    {
+      "id": 4,
+      "name": "Religioso"
+    }
+  ]
+}

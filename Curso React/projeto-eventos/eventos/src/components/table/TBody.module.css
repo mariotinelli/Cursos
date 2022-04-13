@@ -1,0 +1,38 @@
+.table_tbody {
+    background-color: #FFF;
+}
+
+.table_tbody td {
+    padding: .8em .5em;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.table_tbody:hover {
+    background-color: #cfcfcf;
+}
+
+.table_tbody_actions{
+    display: flex;    
+}
+
+.table_tbody_actions button,
+.table_tbody_actions a {     
+    cursor: pointer;
+    margin-right: .5em;
+    display: flex;
+    transition: 0.5s;   
+}
+
+.table_tbody_actions a {
+    background-color: #4d855a;
+}
+
+.table_tbody_actions button {
+    background-color: #ff041d;
+}
+
+.table_tbody_actions svg {
+    font-size: 15px;
+    font-weight: bold;
+}
+

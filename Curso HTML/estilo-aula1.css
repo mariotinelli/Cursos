@@ -1,0 +1,22 @@
+a{
+    color: red;
+    /* Elimina o _ do link */
+    text-decoration: none;
+}
+
+/* Para utilizar o css pelo id, utiliza-se #nome_do_id */
+#segundo {
+    color: black;
+}
+
+/* Para utilizar o css pelo class, utiliza-se .nome_da_class */
+/*
+.link{
+    color: green;
+}
+*/
+
+/* Esse código define que apenas a tag <a> seja afetada, assim qualquer tag que tag class e nao seja a tag "a" não sera afetada */
+a.link{
+    color: green;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="tables-forms-css.css" type="text/css">
+    <title>Tabelas e Formulários</title>
+</head>
+<body>
+    <div id="table">
+        <p>Tabela</p>
+
+        <div class="div-form">
+            <!-- Para criar uma tabela utiliza-se a tag <table>.-->
+            <table>
+
+                <!-- Para criar uma legenda para a tabela, é utilizado a tag <caption>. -->
+                <caption>Legenda da tabela</caption>
+
+                <!-- Dentro desta tabela utiliza-se a tag <tr> que criar uma linha para essa tabela. -->
+                <tr>
+                    <!-- A tag <th> é utilizada para criar uma célula de título em negrito -->
+                    <th>Coluna 1</th>
+                    <th>Coluna 2</th>
+                    <th>Coluna 3</th>
+                    <th>Coluna 4</th>
+                </tr>
+                <tr>
+                    <!-- Dentro desta linha utiliza-se a tag <td> para criar uma celula. -->
+                    <td>Item 1</td>
+                    <td>Item 2</td>
+                    <td>Item 3</td>
+                    <td>Item 4</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="form">
+        <p>Formulário</p>
+
+        
+        <!-- 
+            o atributo action é utilizado para definir o app/arquivo que irá processar e armazenar as informações enviadas ao formulário .
+            É utilizado o método HTTP para definar o que será realizado, são eles:
+                - GET: buscar e enviar informações ao usuário.
+                - POST: armazena as informações enviadas.
+            É necessário utilizar o atributo name, para dar nome ao formulário.
+            É necessário utilizar o atributo id, para dar um id ao formulário.
+        -->
+        <form action="arquivo.php" method="post" name="teste-form" id="teste-form">
+            <div class="div-form">
+                <p>Fieldset</p>
+                <!-- conjunto de campos, botoes e opções de um formulário -->
+                <fieldset>
+                    <!-- legenda do fieldset -->
+                    <legend>fieldset 1</legend>
+                </fieldset>
+                <fieldset>
+                    <!-- legenda do fieldset -->
+                    <legend>fieldset 2</legend>
+                </fieldset>
+            </div>
+
+            <div class="div-form">
+                <p>Input</p>
+
+                <!-- 
+                    O input possui alguns atributos de comportamento, alguns deles são:
+                        - size: o tamanho do input.
+                        - maxlength: define o maximo de cararacteres.
+                -->
+                <input type="password" name="senha" size="50" maxlength="8">
+
+                <!-- 
+                    O input permite a inserção de vários tipo de componentes de controle e são definidos através do atributo type, alguns são:
+                        - text: campos de texto.
+                        - button: botão.
+                        - submit: enviar os dados.
+                        - reset: limpar formulário.
+                        - date: data e hora.
+                    entre outros..
+                    O input também possui atributos como name e id.
+                -->
+                <input type="submit" value="Enviar Dados">
+            </div>
+
+            <div class="div-form">
+                <p>Textarea</p>
+
+                <!-- 
+                    Definir uma area de texto, possui os seguintes atributos:
+                        - name: nome.
+                        - id: id.
+                        - cols: largura em colunas.
+                        - rows: altura em linhas.
+                        - autofocus: realça o campo.
+                        - maxlength: define o maximo de cararacteres.
+                        - placeholder: escreve uma dica.
+                        - required: preenchimento obrigatorio.
+                -->
+                <textarea name="" id="" cols="30" rows="10" autofocus maxlength="256" placeholder="escreva aqui" required></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

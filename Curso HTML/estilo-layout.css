@@ -1,0 +1,73 @@
+/* 
+
+    - Margin: afeta apenas a parte de fora do objeto.
+    - Padding: afeta a parte de dentro do objeto. 
+    - Ordem do padding: "padding: topo, direita, baixo, esquerda;"
+
+*/
+
+body {
+    /* Define a fonte de tudo que está no body */
+    font-family: Helvetica, sans-serif;
+}
+
+/* Trabalhando com a div que possui id wrap */
+#wrap {
+    /* Define a largura */
+    width: 960px;
+    /* Define a margem como automática, isso faz com que o objeto seja centralizado automaticamente */
+    margin: auto;
+    /* Define a imagem de fundo do objeto */
+    background: #e3e3e3;
+    /* Define o padding de 10px em top e botton, e define 20px right e left */
+    padding: 10px 20px;
+    /* O que ultrapassar o tamanho desse objeto, será oculto */
+    overflow: hidden;
+}
+
+/* Trabalhando com a ul, que está dentro e nav e dentro de header */
+header nav ul{
+    /* Elimina as bolinhas da lista */
+    list-style: none;
+    padding-left: 0px;
+}
+
+header nav ul li {
+    /* Todos os elementos da lista serão mostrados em linha */
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.list li a {
+    /* Define a fonte */
+    font-size: 18px;
+    /* Define a cor */
+    color: #ff6600;
+    /* Elimina o sublinhado */
+    text-decoration: none;
+}
+
+.list li a:hover{
+    /* Quando o mouse estiver encima do objeto irá aparecer o sublinhado */
+    text-decoration: underline;
+}
+
+#content {
+    /* Define que content irá flutuar para a esquerda */
+    float: left;
+    width: 660px;
+}
+
+#sidebar {
+    /* Define que sider irá flutuar para a direira */
+    float: right;
+    width: 300px;
+}
+
+#sidebar ul{
+    list-style: none;
+}
+
+footer {
+    clear: both;
+}

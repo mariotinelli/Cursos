@@ -1,0 +1,25 @@
+.btn {
+    display: flex;
+    width: max-content;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    background-color: #0000d3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13.4px;
+    padding: 0.8em 1em;
+    transition: .7s;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.success {
+    background-color: #4d855a;
+}
+
+.danger {
+    background-color: #ff041d;
+}

@@ -1,0 +1,22 @@
+.btn {
+    border-radius: 5px;
+    border: none;
+    background-color: #0000d3;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 .1em;
+    padding: 0.8em 1em;
+    transition: .7s;
+}
+
+.btn:hover {
+    background-color: #000;
+}
+
+.success {
+    background-color: #4d855a;
+}
+
+.danger {
+    background-color: #ff041d;
+}

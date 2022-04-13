@@ -1,0 +1,14 @@
+.createEvents_container {
+    width: 450px;
+    margin: 0 auto;
+    padding: 1em 2em;
+}
+
+.createEvents_container h1{
+    margin-bottom: .5em;
+}
+
+.createEvents_container p{
+    margin-bottom: 1em;
+    color: #7b7b7b;
+}

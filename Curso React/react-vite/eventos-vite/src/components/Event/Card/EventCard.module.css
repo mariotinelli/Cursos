@@ -1,0 +1,32 @@
+.card {
+    width: 23%;
+    padding: .2em;
+    padding-bottom: .7em;
+    border: 1px solid #e0e0e0;
+    margin: .3em;
+}
+
+.card img  {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.card .eventDetails {
+    padding: .2em;
+}
+
+.card .eventDetails p {
+    font-size: 15px;
+    color: #757575;
+}
+
+.card h4,
+.card p,
+.card a{
+    margin-left: .5em;
+    margin-bottom: 1em;
+}
+
+.card a {
+    text-decoration: none;
+}

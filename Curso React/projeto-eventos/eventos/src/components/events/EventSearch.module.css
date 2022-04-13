@@ -1,0 +1,30 @@
+.eventSearch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2em auto;
+    width: 600px;
+    background-color: #FFF;
+    padding: 0 .3em;
+}
+
+.eventSearch input {
+    width: 100%;
+    margin: 0;
+    margin-right: .5em;
+    padding: 1em;
+    border: none;
+    outline: none;
+}
+
+.eventSearch button {
+    margin: 0;
+    background-color: #FFF;
+    font-size: 20px;
+    border: none;
+    transition: 0.5s;
+}
+
+.eventSearch button:hover {
+    font-size: 25px;
+}

@@ -1,0 +1,42 @@
+.event_container {
+    display: flex;
+    width: 100%;
+}
+
+.event_container_actions {
+    display: flex;
+    margin: .5em;
+}
+
+.event_container img{
+    width: 500px;    
+}
+
+
+.event_container span{
+    margin: 0 .2em;
+}
+
+.event_container p{
+    margin-top: .5em;
+    font-weight: 500;
+}
+
+
+.event_container p,
+.event_action,
+.event_description,
+.event_container img {
+    padding: 0.5em;  
+}
+
+.event_info {
+    display: flex;
+}
+
+.event_description {
+    margin: .2em auto;
+    width: 100%;
+}
+
+

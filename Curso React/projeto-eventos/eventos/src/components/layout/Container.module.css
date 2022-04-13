@@ -1,0 +1,47 @@
+.container {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.min-height {
+    min-height: 600px;
+}
+
+.start {
+    justify-content: flex-start;
+}
+
+.column {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.event_form {
+    width: 450px;
+}
+
+
+.table {
+    width: 1000px;
+    justify-content: center;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.show {
+    width: 900px;
+    margin: 3em auto 1em auto;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #e7e7e7;
+}
+
+
+
+
+
+
+

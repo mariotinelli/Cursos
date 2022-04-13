@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="multimidia-css.css" type="text/css">
+    <title>Multimidia</title>
+</head>
+
+<body>
+    <div >
+        <p>Imagem</p>
+        <img src="multimidia/img/img-html.jpg" alt="Imagem-Teste" class="multimidia">
+    </div>
+    <div>
+
+        <!-- 
+            Para inserir um audio, existe alguns atributos a serem inseridos:
+                - autoplay: o audio será iniciado automaticamente
+                - controls: insere uma interface de controle para o audio
+                - loop: o audio será repetido
+                - preload: o arquivo é pré carregado
+        -->
+        <p>Audio</p>
+        <audio src="multimidia/audio/audio-html.ogg" class="multimidia" controls></audio>
+
+    </div>
+
+    <div>
+        <!-- 
+            Para inserir um video, além de possuir os mesmo atributos do audio,
+            autoplay, controls, loop e preload, existe também os seguintes atributos:
+                - height: altura do player
+                - width: largura do player
+                - poster: exibe uma imagem caso o browser não carregue o arquivo
+        -->
+        <p>Video</p>
+        <video src="multimidia/video/video2-html.mp4" class="multimidia" controls height="300px"></video>
+    </div>
+</body>
+
+</html>

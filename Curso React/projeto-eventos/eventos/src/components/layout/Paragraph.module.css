@@ -1,0 +1,8 @@
+.paragraph {
+    font-size: 15px;
+    margin-top: .5em;
+}
+
+.paragraph span {
+    font-weight: bold;
+}

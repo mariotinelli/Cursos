@@ -1,0 +1,16 @@
+.events_container {
+    width: 100%;
+}
+
+.events_container h1 {
+    margin: .5em 0;
+}
+
+.events_container label {
+    margin-top: 2em;
+}
+
+.events_container input {
+    width: 500px;
+    margin-bottom: 2em;
+}

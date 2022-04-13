@@ -1,0 +1,51 @@
+{
+  "projects": [
+    {
+      "name": "Novo Projeto1",
+      "budget": "15000",
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 100,
+      "services": [
+        {
+          "name": "teste service",
+          "cost": "100",
+          "description": "nada",
+          "id": "475e0e06-964e-48da-9432-e71fcceef81a"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": "Criando Projeto",
+      "budget": "1516",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "cost": 0,
+      "services": [],
+      "id": 6
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

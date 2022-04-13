@@ -1,0 +1,80 @@
+* {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFF;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    height: 80px;
+    background-color: #333;
+    border-bottom: 5px solid steelblue;
+    box-sizing: content-box;
+}
+
+.logo {
+    display: inline-block;
+    height: 80px;
+    padding: 15px; 
+}
+
+.logo img{
+    height: 100%;  
+}
+
+.menu-toggle {
+    float: right;
+    color: #fff;
+    background-color: #555;
+    border: solid 1px #777;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px 20px;
+    margin: 20px 15px;
+}
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 25px;
+}
+
+.menu ul{
+    list-style: none;   
+    margin: 0; 
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a{
+    text-decoration: none;
+    padding: 15px;
+}
+
+.menu a:hover {
+    background-color: steelblue;
+}
+
+.autenticacao {
+    float: right;
+    height: 80px;
+    padding: 25px;
+}
+
+.autenticacao a {
+    text-decoration: none;
+}
+
+.botao {
+    border-radius: 15px;
+    padding: 5px 15px;
+}
+
+.destaque {
+    background-color: red;
+}

@@ -1,0 +1,9 @@
+.h1Props {
+    background-color: black;
+    color: white;
+    padding: 3px;
+}
+.pProps{
+    background-color: skyblue;
+    font-weight: bold;
+}

@@ -1,0 +1,47 @@
+{
+    "projects": [
+      {
+        "title": "Primeiro Evento",
+        "city": "Cambará",
+        "description": "Este é meu primeiro evento!"
+      },
+      {
+        "title": "Segundo Evento",
+        "city": "Cambará",
+        "description": "Este é meu segundo evento!"
+      },
+      {
+        "title": "Terceiro Evento",
+        "city": "Cambará",
+        "description": "Este é meu terceiro evento!"
+      },
+      {
+        "title": "Quarto Evento",
+        "city": "Cambará",
+        "description": "Este é meu quarto evento!"
+      },
+      {
+        "title": "Quinto Evento",
+        "city": "Cambará",
+        "description": "Este é meu quarto evento!"
+      }          
+    ],
+    "categories": [
+      {
+        "id": 1,
+        "name": "Infra"
+      },
+      {
+        "id": 2,
+        "name": "Desenvolvimento"
+      },
+      {
+        "id": 3,
+        "name": "Design"
+      },
+      {
+        "id": 4,
+        "name": "Planejamento"
+      }
+    ]
+  }
